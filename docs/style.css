@@ -1,0 +1,259 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+a {
+	color: #000f5f;
+}
+
+.body {
+	line-height: 24px;
+}
+
+.checkbox-inline {
+	display: inline;
+}
+
+.checkbox-inline label {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.checkbox-inline > div {
+	display: none
+}
+
+.checkbox {
+	display: none;
+}
+
+.checkbox-inline > .checkbox:checked ~ div {
+	display: block;
+}
+
+.close-details {
+	display: none;
+	font-size: 12px;
+}
+
+.close-details:hover {
+	text-decoration: none;
+}
+
+.open-details {
+	display: inline;
+	font-size: 12px;
+}
+
+.open-details:hover {
+	text-decoration: none;
+}
+
+.checkbox-inline > .checkbox:checked ~ .close-details {
+	display: inline;
+}
+
+.checkbox-inline > .checkbox:checked ~ .open-details {
+	display: none;
+}
+
+.close-methods {
+	display: none;
+	padding-top: 6px;
+}
+
+.close-methods:hover {
+	text-decoration: none;
+}
+
+.open-methods {
+	display: block;
+	padding-top: 6px;
+}
+
+.open-methods:hover {
+	text-decoration: none;
+}
+
+.blank-link:hover {
+	text-decoration: none;
+	color: #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.checkbox-inline > .checkbox:checked ~ .close-methods {
+	display: block;
+}
+
+.checkbox-inline > .checkbox:checked ~ .open-methods {
+	display: none;
+}
+
+.body {
+	padding: 15px;
+}
+
+.body ol li {
+	padding-top:10px;
+}
+
+.content {
+	padding: 25px;
+}
+
+.red {
+	color: #ba151d;
+}
+
+.green {
+	color: #4e7b00;
+}
+
+.comment-green {
+	color: #4c6a16;
+}
+
+.gray {
+	color: #5e5a4d;
+}
+
+.switcher-of-displaying  {
+	color: #3e0000;
+	text-decoration: none !important;
+	border-bottom: 1px dotted #3e0000;
+}
+
+.violet {
+	color: #622094;
+}
+
+.brown {
+	color: #6d3719;
+}
+
+.blue {
+	color: #235a93;
+}
+
+.orange {
+	color: #b74203;
+}
+
+.black {
+	color: #000000;
+}
+
+.blank-link {
+	text-decoration: none;
+	color: #000000;
+	border-bottom: 1px dashed #000000;
+}
+
+.sub-details {
+	padding: 10px; 
+	border: 1px solid #034d4e; 
+	border-right: 0px;
+}
+
+.code-list {
+	list-style-type: none;
+}
+
+.content {
+	list-style-type: none;
+}
+
+.content li {
+	margin: 5px 0px;
+}
+
+.content ul{
+	list-style-type: none;
+}
+
+.comment-list {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.pl-0 {
+	padding-left: 0px;
+}
+
+.pl-6 {
+	padding-left: 6px;
+}
+
+.clean-up-details {
+	float: right;
+	font-weight: normal !important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.file-name {
+	display: block;
+	margin: 10px 0px;
+	font-size: 18px;
+}
+
+.no-decoration {
+	text-decoration: none;
+}
+
+nav > ul > li {
+	margin-bottom: 15px;
+}
+
+.submenu li {
+	margin-top: 8px;
+}
+
+.list-style-none {
+	list-style: none;
+}
+
+.metadata-list ul {
+	list-style: none;
+}
+
+.metadata-list > ul li {
+	margin-bottom: 16px;
+}
+
+.metadata-list ul ul {
+	margin-top: 16px;
+}
+
+.general-data-col div {
+	margin-bottom: 8px;
+}
+
+.general-data-col div span {
+	margin-right: 4px;
+}
+
+.general-data-col hr {
+	border: 0px;
+	border-top: 1px solid #000000;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
