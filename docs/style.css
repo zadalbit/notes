@@ -16,8 +16,28 @@ h2 {
 	font-size: 22px;
 }
 
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
 a {
 	color: #000f5f;
+}
+
+.ol li {
+	padding-top: 0px !important;
+	padding-bottom: 10px !important;
+}
+
+.external {
+    background-image: url('imgs/external-link-ltr-icon.svg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-right: 13px;
 }
 
 .body {
@@ -229,6 +249,10 @@ nav > ul > li {
 	list-style: none;
 }
 
+.list-style-none li > ul {
+	margin-top: 5px;
+}
+
 .metadata-list ul {
 	list-style: none;
 }
@@ -257,3 +281,4 @@ nav > ul > li {
 .line-through {
 	text-decoration: line-through;
 }
+
