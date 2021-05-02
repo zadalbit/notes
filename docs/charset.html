@@ -8,14 +8,47 @@
 		<hr>
 		<h4>[3] Визначення та позначення:</h4>
 		<ul class="list-style-none">
-			<li> <strong>Кодований набір символів</strong> <br> <i>(англ. Coded Character Set)</i>
+			<li> <strong>Символозбір</strong> <br> <i>(англ. Charset)</i>
 				<ul class="list-style-none">
 					<li>
-						Індивідуальне відображення набору абстрактних символів у набір цілих чисел. <br>
-						Прикладами кодованих наборів символів є ISO 10646 [ISO-10646], US-ASCII [US-ASCII] та серія ISO-8859 [ISO-8859].
+						Термін "символозбір" (використання значення якого в попередніх версіях BCP19 мало вигляд "набір символів", англ. "character set") задіяний тут для посилання на метод конвертації послідовності октетів (8 пов'язаних одиниць, в даному контексті - 8 бітів) у послідовність символів. Таке перетворення також має можливість створювати інформацію додаткового контролю, таку як індикатори напрямку написання (відповідно до інформації наданої в <a class="blank-link external" href="https://www.rfc-editor.org/rfc/rfc1556.html" target="_blank">RFC 1556</a> маються на увазі контрольні послідовності).
 					</li>
+               <li><br></li>
+               <li>Зауважте, що безумовне і однозначне перетворення <!-- <span class="line-through"> -->у визначеному напрямку<!-- </span> --> не є потрібним...</li>
 				</ul>
 			</li>
 		</ul>
 	</body>
 </html>
+
+<!-- The term "charset" (referred to as a "character set" in previous
+   versions of this document) is used here to refer to a method of
+   converting a sequence of octets into a sequence of characters.  This
+   conversion may also optionally produce additional control information
+   such as directionality indicators.
+
+   Note that unconditional and unambiguous conversion in the other
+   direction is not required, in that not all characters may be
+   representable by a given charset and a charset may provide more than
+   one sequence of octets to represent a particular sequence of
+   characters.
+
+   This definition is intended to allow charsets to be defined in a
+   variety of different ways, from simple single-table mappings such as
+   US-ASCII to complex table switching methods such as those that use
+   ISO 2022's techniques.  However, the definition associated with a
+   charset name must fully specify the mapping to be performed.  In
+   particular, use of external profiling information to determine the
+   exact mapping is not permitted.
+
+   HISTORICAL NOTE: The term "character set" was originally used in MIME
+   to describe such straightforward schemes as US-ASCII and ISO-8859-1
+   which consist of a small set of characters and a simple one-to-one
+   mapping from single octets to single characters.  Multi-octet
+   character encoding schemes and switching techniques make the
+   situation much more complex.  As such, the definition of this term
+   was revised to emphasize both the conversion aspect of the process,
+   and the term itself has been changed to "charset" to emphasize that
+   it is not, after all, just a set of characters.  A discussion of
+   these issues as well as specification of standard terminology for use
+   in the IETF appears in RFC 2130. -->
