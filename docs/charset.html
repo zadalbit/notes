@@ -23,57 +23,10 @@
                </li>
                <li><br></li>
                <li>
-                  ІСТОРИЧНА ПРИМІТКА: термін "набір символів" (англ. "character set") спочатку використовувався в MIME (що відповідно до <a class="blank-link external" href="https://www.rfc-editor.org/info/bcp13" target="_blank">BCP 13</a> розшифровується - багатоцільові розширення для інтернет-пошти, англ. Multipurpose Internet Mail Extensions) для опису таких простих схем, як US-ASCII та ISO-8859-1, які складаються з невеликого набору символів та простого співставлення "один до одного" що містить набір відповідностей єдиного октета до єдиного символа. Багатооктові схеми кодування символів та методи перемикання <!-- (чогось перевело комутації) --> значно поскладнюють ситуацію.
+                  ІСТОРИЧНА ПРИМІТКА: термін "набір символів" (англ. "character set") спочатку використовувався в MIME (що відповідно до <a class="blank-link external" href="https://www.rfc-editor.org/info/bcp13" target="_blank">BCP 13</a> розшифровується - багатоцільові розширення для інтернет-пошти, англ. Multipurpose Internet Mail Extensions) для опису таких простих схем, як US-ASCII та ISO-8859-1, які складаються з невеликого набору символів та простого співставлення "один до одного" що містить набір відповідностей єдиного октета до єдиного символа. Багатооктові схеми кодування символів та техніки перемикання <!-- (чогось перевело комутації) --> значно поскладнюють ситуацію. Тому це свого часу стало причиною перегляду визначення даного терміна, що надало виразності аспекту перетворення в процесі, а також тому, що сам термін було змінено на "символозбір" (англ. "charset"), аби підкреслити, що це, зрештою, не просто набір символів. Обговорення цих питань, а також уточнення стандартної термінології для використання в IETF містить RFC 2130.
                </li>
 				</ul>
 			</li>
 		</ul>
 	</body>
 </html>
-
-<!-- 
-комутації
-
-    Таким чином, визначення цього терміна було переглянуто, щоб наголосити як на аспекті перетворення процесу, так і сам термін було змінено на "charset", щоб підкреслити, що це, зрештою, не просто набір символів. Обговорення цих питань, а також специфікація стандартної термінології для використання в IETF міститься в RFC 2130.
-
-  Multi-octet
-   character encoding schemes and switching techniques make the
-   situation much more complex.  As such, the definition of this term
-   was revised to emphasize both the conversion aspect of the process,
-   and the term itself has been changed to "charset" to emphasize that
-   it is not, after all, just a set of characters.  A discussion of
-   these issues as well as specification of standard terminology for use
-   in the IETF appears in RFC 2130.
-
-   The term "charset" (referred to as a "character set" in previous
-   versions of this document) is used here to refer to a method of
-   converting a sequence of octets into a sequence of characters.  This
-   conversion may also optionally produce additional control information
-   such as directionality indicators.
-
-   Note that unconditional and unambiguous conversion in the other
-   direction is not required, in that not all characters may be
-   representable by a given charset and a charset may provide more than
-   one sequence of octets to represent a particular sequence of
-   characters.
-
-   This definition is intended to allow charsets to be defined in a
-   variety of different ways, from simple single-table mappings such as
-   US-ASCII to complex table switching methods such as those that use
-   ISO 2022's techniques.  However, the definition associated with a
-   charset name must fully specify the mapping to be performed.  In
-   particular, use of external profiling information to determine the
-   exact mapping is not permitted.
-
-   HISTORICAL NOTE: The term "character set" was originally used in MIME
-   to describe such straightforward schemes as US-ASCII and ISO-8859-1
-   which consist of a small set of characters and a simple one-to-one
-   mapping from single octets to single characters.  Multi-octet
-   character encoding schemes and switching techniques make the
-   situation much more complex.  As such, the definition of this term
-   was revised to emphasize both the conversion aspect of the process,
-   and the term itself has been changed to "charset" to emphasize that
-   it is not, after all, just a set of characters.  A discussion of
-   these issues as well as specification of standard terminology for use
-   in the IETF appears in RFC 2130.
- -->
