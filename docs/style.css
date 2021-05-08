@@ -201,8 +201,12 @@ a {
 	margin: 5px 0px;
 }
 
-.content ul{
+.content ul {
 	list-style-type: none;
+}
+
+.classic-ul {
+	list-style-type: circle !important;
 }
 
 .comment-list {
